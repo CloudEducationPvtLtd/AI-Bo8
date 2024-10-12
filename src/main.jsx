@@ -89,6 +89,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HashRouter as Router } from 'react-router-dom';
 import App from "./App.jsx";
 import "./index.css";
 import About from "./pages/About.jsx";
@@ -115,10 +116,18 @@ const router = createBrowserRouter([
   // { path: "*", element: <Error /> }, // Handle undefined routes
 ]);
 
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <React.StrictMode>
+//     <RouterProvider router={router}>
+//       {/* <ScrollToTopAndTitle /> Component for scroll and title management */}
+//     </RouterProvider>
+//   </React.StrictMode>
+// );
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-      {/* <ScrollToTopAndTitle /> Component for scroll and title management */}
-    </RouterProvider>
+    <Router>
+      <RouterProvider router={router} />
+    </Router>
   </React.StrictMode>
 );
