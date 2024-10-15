@@ -50,6 +50,20 @@ import {
     thumbnailProject5,
     thumbnailProject6,
     twitter,
+    brochure1,
+    brochure2,
+    brochure3,
+    brochure4,
+    brochure5,
+    brochure6,
+    brochure7,
+    brochure8,
+    brochure9,
+    brochure10,
+    brochure11,
+    brochure12,
+    brochure13,
+    brochure14,
     // yourlogo,
   } from "../assets";
   
@@ -496,3 +510,85 @@ import {
       url: "#",
     },
   ];
+
+  export const labSetup = [
+    {
+      id: "0",
+      imageUrl: brochure9,
+    },
+    {
+      id: "1",
+      imageUrl: brochure10,
+    },
+    {
+      id: "2",
+      imageUrl: brochure11,
+    },
+    {
+      id: "3",
+      imageUrl: brochure13,
+    },
+    {
+      id: "4",
+      imageUrl: brochure14,
+    },
+  ]
+
+  export const brochure = [
+    {
+      id: "0",
+      imageUrl: brochure1,
+    },
+    {
+      id: "1",
+      imageUrl: brochure2,
+    },
+    {
+      id: "2",
+      imageUrl: brochure3,
+    },
+    {
+      id: "3",
+      imageUrl: brochure4,
+    },
+    {
+      id: "4",
+      imageUrl: brochure5,
+    },
+    {
+      id: "5",
+      imageUrl: brochure6,
+    },
+    {
+      id: "6",
+      imageUrl: brochure7,
+    },
+    {
+      id: "7",
+      imageUrl: brochure8,
+    },
+    {
+      id: "8",
+      imageUrl: brochure9,
+    },
+    {
+      id: "9",
+      imageUrl: brochure10,
+    },
+    {
+      id: "10",
+      imageUrl: brochure11,
+    },
+    {
+      id: "11",
+      imageUrl: brochure12,
+    },
+    {
+      id: "12",
+      imageUrl: brochure13,
+    },
+    {
+      id: "13",
+      imageUrl: brochure14,
+    },
+  ]
